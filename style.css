@@ -54,3 +54,23 @@ nav {
         width: 960px; 
         margin: 0px auto 0px auto;
     }
+
+    #content-sidebar-wrapper{
+        clear: both;
+    }
+
+    #content{
+        border: 3px solid black;
+        width: 73%;
+        float: left;
+    }
+
+    #sidebar{
+        border: 3px solid black;
+        width: 23%;
+        float: right;
+    }
+
+    #footer {
+        clear: both;
+    }
