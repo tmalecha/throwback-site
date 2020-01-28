@@ -19,3 +19,38 @@ i{
 h3{
     color: palevioletred;
 }
+
+/*images and text formatting*/
+
+p{
+    clear: both;
+}
+
+img{
+    float: left;
+}
+
+/* nav structure*/
+
+nav li a {
+    display: block;
+    padding: 10px 30px; 
+    float: left; 
+}
+
+nav li {
+    list-style-type: none;
+    display: block;
+    float: left; 
+}
+
+nav {
+    clear: both;
+}
+
+/* structure and layout */
+
+    #wrapper{
+        width: 960px; 
+        margin: 0px auto 0px auto;
+    }
