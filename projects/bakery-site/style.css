@@ -1,0 +1,249 @@
+/* stylesheet for bakery website*/
+
+* {
+    box-sizing: border-box;
+}
+
+.copyright{
+    text-align: center;
+    color: cadetblue;
+    font-style: oblique;
+}
+
+.mission{
+    text-align: center;
+    color: cadetblue;
+}
+
+/* Text colors*/
+
+h1{
+    color:rgb(63, 63, 63); 
+    border:5px darkslateblue solid; 
+    text-align: center;
+}
+
+blockquote{
+    color: darkslateblue;
+}
+
+/* Nav structure*/
+
+nav{
+    clear: both;
+    width: 400px;
+    margin: 0 auto;
+}
+
+nav li a{
+    display: block;
+    padding: 10px 30px;
+    float: left;
+}
+
+nav li{
+    list-style-type: none;
+    display: block;
+    float: left;
+}
+
+nav li a{
+    border: 3px wheat solid;
+}
+
+
+/* structure and layout*/
+
+#wrapper{
+    width:960px;
+    margin: 0px auto 0px auto;
+}
+
+#content-sidebar-wrapper{
+    clear: both;
+    width: 700px;
+    margin: 0 auto;
+}
+
+#footer{
+    clear: both;
+    text-align: center;
+}
+
+/* about us style*/
+
+    #image{
+        width: 50%;
+        float: right;
+    }
+
+    #map{
+        width:50%;
+        float:left;
+    }
+
+    #information-contact{
+        width: 100%;
+    }
+
+    .hours-location{
+        display: block; 
+        width: 50%;
+        float: left;
+        padding: 10px;
+    }
+
+    .contact{
+        display: block;
+        width: 50%;
+        float: right;
+        padding: 10px;
+    }
+
+    .hours-location{
+        border: 2px solid cornflowerblue 
+    }
+
+    .contact{
+        border: 2px solid cornflowerblue
+    }
+
+    .directions{
+        display: block;
+        width: 50%;
+        float: left;
+    }
+
+    .pictured-above{
+        display:block;
+        width: 50%;
+        float: right;
+    }
+
+    .directions{
+        border: 1px solid cornflowerblue;
+        padding: 3px;
+    }
+
+    .pictured-above{
+        border: 1px solid cornflowerblue;
+        padding: 3px;
+    }
+
+
+
+    /* menu */
+
+    #hot-menu{
+        display: block;
+    }
+
+    #cold-menu{
+        display: block;
+    }
+
+    #favorites-menu{
+        display: block;
+    }
+
+    #treats-menu{
+        display: block;
+    }
+
+    .hot{
+        
+        text-align: left;
+        color: red;
+        padding: 3px;
+    }
+
+    .cold{
+        
+        text-align: left;
+        color: blue;
+        padding: 3px;
+    }
+
+    .favs{
+        
+        text-align: left;
+        color: palevioletred;
+        padding: 3px;
+    }
+
+    .treats{
+       
+        text-align: left;
+        color: turquoise;
+        padding: 3px;
+    }
+
+
+    .menu -everything{
+        clear: both;
+        width: 100%;
+    }
+
+    .menu-paragraph{
+        width: 50%;
+        float: left;
+    }
+
+    .menu-image{
+        width: 50%;
+        float: right;
+    }
+
+
+/* Review page */
+
+.quote1{
+    color: plum;
+    display: block;
+    float: left;
+    border: plum 2px solid;
+    padding: 2px;
+}
+
+.quote2{
+    color: powderblue;
+    display: block;
+    float: right;
+    border: powderblue 2px solid;
+    padding: 2px;
+}
+
+.quote3{
+    color: purple;
+    display: block;
+    float: right;
+    border: purple 2px solid;
+    padding: 2px;
+}
+
+.quote4{
+    color: palegreen;
+    display: block;
+    float: left;
+    border: palegreen 2px solid;
+    width: 30%;
+    padding: 2px;
+}
+#family-review{
+    width:600px;
+    float:left;
+}
+
+#kid-review{
+    width:50%;
+    float:right;
+}
+#collage-review{
+    width: 342px;
+    float: right;
+}
+
+#booth-review{
+    width: 50%;
+    float: left;
+}
