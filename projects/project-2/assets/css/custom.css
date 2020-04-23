@@ -1,0 +1,52 @@
+/* custom css file */ 
+
+
+/* home page main image*/
+
+#home-main-image{
+    background-image: url(../img/Meemaw\ getting\ into\ the\ car.jpeg);
+    background-size: cover;
+}
+
+#home-main-image .cell{
+    min-height: 300px;
+}
+
+h2{
+    color: whitesmoke;
+}
+
+blockquote{
+    font-style: italic;
+}
+
+footer{
+    background-color: #292929;
+}
+
+footer label{
+    color: white;
+}
+
+footer .cell{
+    color: white;
+}
+
+#give-main-img{
+    background-image: url(../img/give-a-ride-bg.jpg);
+    background-size: cover;
+}
+
+#give-main-img .cell{
+    min-height: 300px;
+}
+
+#get-main-img{
+    background-image: url(../img/get-a-ride.jpg);
+    background-size: cover;
+}
+
+#get-main-img .cell{
+    min-height: 300px;
+}
+
