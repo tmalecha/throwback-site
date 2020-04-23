@@ -1,0 +1,44 @@
+/* Custom Style Sheet for Final Project Website*/
+/* Add all css*/
+
+
+/*import*/
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;700&display=swap');
+
+
+
+/*Typography*/
+
+
+body{
+    font-family: 'Josefin Sans';
+    }
+
+h1{
+    font-family: 'Josefin Sans';
+}
+
+h3{
+    font-family: 'Josefin Sans';
+}
+
+h4{
+    font-family: 'Josefin Sans';
+}
+
+h5{
+    font-family: 'Josefin Sans';
+}
+
+.callout{
+    background-color: lightgoldenrodyellow;
+}
+
+.top-bar{
+    background-color: whitesmoke;
+}
+
+.callout.primary{
+    background-color: lightgoldenrodyellow;
+}
